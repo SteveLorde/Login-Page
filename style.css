@@ -1,0 +1,22 @@
+body {
+background-color: rgb(216, 216, 216);
+}
+
+.mainflex {
+    display: flex;
+}
+
+.landing-image {
+    width: 50%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.LoginSide {
+    background-color: aqua;
+    padding: 50px;
+    flex: auto;
+}
