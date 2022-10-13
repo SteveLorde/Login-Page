@@ -1,5 +1,5 @@
 body {
-background-color: rgb(216, 216, 216);
+background-color: rgb(250, 250, 250);
 }
 
 .mainflex {
@@ -13,10 +13,52 @@ background-color: rgb(216, 216, 216);
 img {
     width: 100%;
     height: auto;
+    border-radius: 20px;
 }
 
 .LoginSide {
-    background-color: aqua;
-    padding: 50px;
+    padding: 1px;
     flex: auto;
+}
+
+.Form {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding: 7%;
+}
+label {
+    flex: 1;
+    color: rgb(46, 46, 46);
+    font-size: 20px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input {
+    flex: 1;
+    padding: 7px;
+    width: 70%;
+    margin: 8% 0% 8% 0%;
+    border-radius: 5px;
+    background-color: rgb(241, 241, 241);
+    border-style: hidden;
+}
+button {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: larger;
+    background-color: rgb(78, 94, 54);
+    border-style: hidden;
+    cursor: pointer;
+
+}
+.formcolumn {
+    flex: 50%;
+}
+
+.Typos {
+    font-family: sans-serif;
+    margin: 5%;
+    font-size: large;
 }
